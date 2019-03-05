@@ -1,0 +1,22 @@
+{
+    "name": "kubpro/netsms",
+    "description": "Bir Net SMS",
+    "authors": [
+        {
+            "name": "Rauf Abbas",
+            "email": "rafo.abbas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kubpro\\":"src/Classes"
+        },
+        "files": [
+            "src/config.php"
+        ]
+
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "version": "0.1.0"
+}
